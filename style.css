@@ -1,0 +1,104 @@
+/*root*/
+:root {
+    --color-black: black;
+    --color-gray: gray;
+    --color-white: white;
+}
+/*root*/
+
+/*common*/
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+input[type=text] {
+    border-bottom: 3px solid gray !important;
+    outline: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.background-none {
+    background: transparent;
+    border: none;
+}
+/*common*/
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/*clock*/
+.clock {
+    margin: 30vh auto 1vh;
+    position: relative;
+}
+
+.clock__on {
+    font-size: 5rem;
+}
+/*clock*/
+/*weather*/
+/*weather*/
+/*greetings*/
+.greetings__message {
+    margin: auto;
+    font-size: 2rem;
+}
+
+.btn {
+  cursor: pointer;
+}
+.clicked {
+  color: var(--color-gray);
+}
+
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+/*greetings*/
+/*todo*/
+.todo__list {
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.todo__ul {
+    list-style: none;
+    padding: 0 5vw;
+    font-size: 1.25rem;
+}
+/*todo*/
+/*background*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+/*background*/

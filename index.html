@@ -1,33 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>TodoList</title>
-    <link href="index.css" rel="stylesheet"/>
-  </head>
-  <body>
-  
-    <div class="js-clock">
-        <h1>00:00</h1>
-    </div>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
 
-    <form class="js-form form">
-        <input type="text" placeholder="What is your name?" />
-    </form>
+    <section class="container">
+        <!--clock-->
+        <div class="clock">
+            <div class="clock__on">00:00<!--시계--></div>
+        </div>
+        <!--clock-->
 
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do" />
-    </form>
+        <!--weather-->
+        <div class="text-center">
+            <span class="weather"></span>
+        </div>
+        <!--weather-->
 
-    <ul class="js-toDoList">
-    </ul>
-  
-    <span class="js-weather"></span>
+        <!--greetings-->
+        <form class="greetings__name greetings text-center">
+            <input type="text" class="greetings__input backgroun-none" 
+                    placeholder="What is your name?">
+        </form>
+        <div class="greetings__message greetings"></div>
+        <!--greetings-->
+
+        <!--todo-->
+        <form class="todo__form text-center">
+            <input type="text" class="todo_input background-none" 
+                    placeholder="Write a to do">
+        </form>
+
+        <div class="todo__list">
+            <ul class="todo__ul">
+            </ul>
+        </div>
+        <!--todo-->
+
+    </section>
+
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
-    <script src="bg.js"></script>
-    <script src="weather.js"></script>
-  
-  </body>
+
+</body>
 </html>
