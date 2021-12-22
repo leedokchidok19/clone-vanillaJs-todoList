@@ -28,6 +28,10 @@ input[type=text] {
     background: transparent;
     border: none;
 }
+
+.d-none {
+    display: none;
+}
 /*common*/
 
 .container {
@@ -37,6 +41,15 @@ input[type=text] {
     width: 100%;
 }
 
+/*settings*/
+.settings {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.settings li {
+    list-style: none;
+}
+/*settings*/
 /*clock*/
 .clock {
     margin: 30vh auto 1vh;
@@ -64,6 +77,10 @@ input[type=text] {
 
 .greetings {
   display: none;
+}
+
+.greetings > input {
+    text-align: center;
 }
 
 .showing {

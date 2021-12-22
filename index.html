@@ -2,12 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="leedokchidok19">
+    <meta name="og:title" content="leedokchidok19 Todo List">
+    <meta property="og:description" content="Enjoy the rest of your day"/>
     <title>TodoList</title>
+    <!--폰트 어썸 : Place your kit's code here https://fontawesome.com/-->
+    <script src="https://kit.fontawesome.com/c1420bfedb.js" crossorigin="anonymous"></script>
     <link href="css/style.css" rel="stylesheet"/>
 </head>
 <body>
 
     <section class="container">
+
+        <!--Setting-->
+        <article class="settings">
+            <ul>
+                <li id="cog"><i class="fas fa-cog"></i></li>
+                <li class="shortcutKeys d-noen"><!--Brackets shotcut keys--></li>
+                <li class=" d-noen"></li>
+            </ul>
+        </article>
+        <!--Setting-->
+
         <!--clock-->
         <div class="clock">
             <div class="clock__on"><!--시계--></div>
@@ -43,10 +60,12 @@
     </section>
 
     <script src="js/bg.js"></script>
+    <script src="js/settings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/greeting.js"></script>
     <script src="js/todo.js"></script>
+    <script src="js/shortcutKeys.js"></script>
 
 </body>
 </html>
