@@ -46,6 +46,13 @@ input[type=text] {
     display: flex;
     flex-direction: row-reverse;
 }
+#set__bar {
+    margin: 0;
+    padding: 0 8px;
+    display: flex;
+    background-color: lightgreen;
+    border-radius: 32px;
+}
 .settings li {
     list-style: none;
 }
