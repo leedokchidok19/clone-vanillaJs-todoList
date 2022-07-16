@@ -1,0 +1,25 @@
+/*greetings*/
+.greetings__message {
+    margin: auto;
+    font-size: 2rem;
+}
+
+.btn {
+  cursor: pointer;
+}
+.clicked {
+  color: var(--color-gray);
+}
+
+.greetings {
+  display: none;
+}
+
+.greetings > input {
+    text-align: center;
+}
+
+.showing {
+  display: block;
+}
+/*greetings*/

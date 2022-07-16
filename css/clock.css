@@ -1,0 +1,10 @@
+/*clock*/
+.clock {
+    margin: 1vh auto;
+    position: relative;
+}
+
+.clock__on {
+    font-size: 5rem;
+}
+/*clock*/

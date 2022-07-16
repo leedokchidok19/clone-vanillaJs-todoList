@@ -19,6 +19,7 @@ requirements 참고
 + Weather API
 + Todo
 + localstorage
++ Text Read
 ---
 ### Improvements
 + 단축키 목록 불러오기 (Brackets tool)

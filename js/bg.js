@@ -14,7 +14,7 @@ function genRandom() {
   return number;
 }
 
-function init() {
+export function init() {
   const randomNumber = genRandom();
   paintImage(randomNumber);
 }

@@ -1,3 +1,10 @@
+@charset "utf-8";
+@import "clock.css";
+@import "settings.css";
+/*@import "weather.css";*/
+@import "greetings.css";
+@import "todo.css";
+
 /*root*/
 :root {
     --color-black: black;
@@ -41,71 +48,6 @@ input[type=text] {
     width: 100%;
 }
 
-/*settings*/
-.settings {
-    display: flex;
-    flex-direction: row-reverse;
-}
-#set__bar {
-    margin: 0;
-    padding: 0 8px;
-    display: flex;
-    background-color: lightgreen;
-    border-radius: 32px;
-}
-.settings li {
-    list-style: none;
-}
-/*settings*/
-/*clock*/
-.clock {
-    margin: 30vh auto 1vh;
-    position: relative;
-}
-
-.clock__on {
-    font-size: 5rem;
-}
-/*clock*/
-/*weather*/
-/*weather*/
-/*greetings*/
-.greetings__message {
-    margin: auto;
-    font-size: 2rem;
-}
-
-.btn {
-  cursor: pointer;
-}
-.clicked {
-  color: var(--color-gray);
-}
-
-.greetings {
-  display: none;
-}
-
-.greetings > input {
-    text-align: center;
-}
-
-.showing {
-  display: block;
-}
-/*greetings*/
-/*todo*/
-.todo__list {
-    margin: 0 auto;
-    width: 50vw;
-}
-
-.todo__ul {
-    list-style: none;
-    padding: 0 5vw;
-    font-size: 1.25rem;
-}
-/*todo*/
 /*background*/
 @keyframes fadeIn {
   from {

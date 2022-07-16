@@ -15,6 +15,7 @@ queryParams     +=  '&' +   encodeURIComponent('nx')            +   '=' +   enco
 queryParams     +=  '&' +   encodeURIComponent('ny')            +   '=' +   encodeURIComponent('127');      /*예보지점 Y 좌표*/
 
 xhr.open('GET', url + queryParams);
+xhr.setRequestHeader('X-PINGOTHER', 'pingpong');
 
 xhr.onreadystatechange = function () {
     if (this.readyState == 4) {

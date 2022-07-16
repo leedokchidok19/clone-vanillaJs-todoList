@@ -1,0 +1,12 @@
+/*todo*/
+.todo__list {
+    margin: 0 auto;
+    width: 50vw;
+}
+
+.todo__ul {
+    list-style: none;
+    padding: 0 5vw;
+    font-size: 1.25rem;
+}
+/*todo*/
