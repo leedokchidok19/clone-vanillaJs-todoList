@@ -1,12 +1,24 @@
 /*todo*/
+.todo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.todo__input {
+    width: 50%;
+}
+
 .todo__list {
     margin: 0 auto;
-    width: 50vw;
+    width: 50%;
 }
 
 .todo__ul {
     list-style: none;
-    padding: 0 5vw;
     font-size: 1.25rem;
+    padding: 0;
 }
 /*todo*/

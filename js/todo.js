@@ -1,5 +1,5 @@
 const toDoForm = document.querySelector('.todo__form');
-const toDoInput = toDoForm.querySelector('.todo_input');
+const toDoInput = toDoForm.querySelector('.todo__input');
 const toDoList = document.querySelector('.todo__ul');
 const TODOS_LS = 'todos';
 
